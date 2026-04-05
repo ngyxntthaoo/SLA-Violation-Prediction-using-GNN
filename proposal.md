@@ -317,4 +317,31 @@ Công trình này mở ra tiềm năng ứng dụng rộng rãi trong các hệ 
 
 ---
 
+## 7. Tài liệu Tham khảo
+
+| # | Tác giả | Năm | Tiêu đề | Venue | Đóng góp cho đề xuất |
+|:---:|---|:---:|---|---|---|
+| [1] | Kipf & Welling | 2017 | [Semi-supervised classification with GCN](https://arxiv.org/abs/1609.02907) | ICLR | Kiến trúc GCN sử dụng trong Mục 2.4 |
+| [2] | Teinemaa et al. | 2019 | [Outcome-oriented PPM: Review and benchmark](https://doi.org/10.1145/3301300) | ACM TKDD | Giao thức đánh giá train/val/test (Mục 2.6) |
+| [3] | van Dongen | 2012 | [BPI Challenge 2012](https://doi.org/10.4121/uuid:3926db30-f712-4394-aebc-75976070e91f) | 4TU | Tập dữ liệu benchmark (Mục 3) |
+| [5] | Camargo et al. | 2019 | [Learning accurate LSTM models of BPs](https://doi.org/10.1007/978-3-030-26619-6_19) | BPM | Nguồn gốc `time_since_start` & `time_since_prev` (Mục 2.2) |
+| [7] | Veličković et al. | 2018 | [Graph attention networks](https://arxiv.org/abs/1710.10903) | ICLR | GAT — hướng phát triển tương lai (Mục 5) |
+| [8] | Fey & Lenssen | 2019 | [Fast GRL with PyTorch Geometric](https://arxiv.org/abs/1903.02428) | ICLR WS | Framework cài đặt GCN |
+| [9] | Wang & Damiani | 2025 | [Time-aware & transition-semantic GNN for PBPM](https://arxiv.org/abs/2508.09527) | arXiv | Mở rộng trực tiếp: GCN prefix + time decay |
+| [10] | Lischka et al. | 2025 | [DFG go PPM with GNN](https://arxiv.org/abs/2503.03197) | arXiv | **Cùng DFG + GNN approach**, so sánh đa kiến trúc |
+| [11] | Dissegna & Di Francescomarino | 2025 | [GNN for PPM: Review & Benchmark](https://doi.org/10.1007/978-3-031-78666-2_3) | BPM 2024 | GNN đạt +10% accuracy so với LSTM/Transformer |
+| [12] | Rama-Maneiro et al. | 2024 | [Embedding GCN in RNN for PPM](https://doi.org/10.1109/TKDE.2023.3286017) | IEEE TKDE | GCN > LSTM — củng cố lựa chọn GCN |
+| [13] | Chiorrini et al. | 2023 | [Multi-perspective instance graphs for next activity prediction](https://doi.org/10.1007/s10844-023-00777-1) | JIIS | Hướng mở rộng: đồ thị đa góc nhìn |
+| [14] | Duong et al. | 2023 | [Remaining cycle time prediction with GNN](https://doi.org/10.1145/3589883.3589897) | ICMLT | GNN + remaining time ≡ bài toán SLA |
+| [15] | Maroudis et al. | 2024 | [Leveraging GNN for SLA violation prediction](https://ieeexplore.ieee.org/document/10173672/) | IEEE TNSM | **GNN + SLA violation** — kết hợp trực tiếp 2 chủ đề |
+| [16] | van der Aalst et al. | 2011 | [Time prediction based on process mining](https://doi.org/10.1016/j.is.2010.09.001) | Inf. Systems | Nền tảng dự đoán thời gian & SLA |
+| [17] | Verenich et al. | 2019 | [Survey of remaining time prediction in BPM](https://doi.org/10.1145/3331449) | ACM TIST | Lý thuyết SLA deadline: vi phạm ⟺ remaining time > deadline |
+| [18] | Ly et al. | 2015 | [Compliance monitoring in BPs](https://doi.org/10.1016/j.is.2015.02.007) | Inf. Systems | Định nghĩa SLA constraint & compliance monitoring |
+| [19] | Rogge-Solti & Weske | 2015 | [Remaining time prediction with Stochastic Petri Nets](https://doi.org/10.1007/978-3-642-45005-1_27) | ICSOC | Phương pháp xác suất sớm nhất cho SLA deadline prediction |
+| [20] | Maggi et al. | 2011 | [Monitoring BPs with LTL](https://doi.org/10.1007/978-3-642-23059-2_13) | BPM | Formal verification vi phạm SLA dạng LTL |
+| [21] | van der Aalst | 2016 | [Process mining: Data science in action](https://doi.org/10.1007/978-3-662-49851-4) | Springer | Định nghĩa DFG, event log — nền tảng process mining |
+| [22] | Marquez-Chamorro et al. | 2018 | [Predictive monitoring of BPs: A survey](https://doi.org/10.1109/TSC.2017.2772256) | IEEE TSC | Khảo sát tổng quan PPM |
+
+---
+
 *Tài liệu này được soạn dựa trên mã nguồn notebook `thao-nguyen.ipynb` và báo cáo phương pháp `approach-report.md`.*
